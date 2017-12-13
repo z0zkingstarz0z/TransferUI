@@ -47,8 +47,8 @@ class Main extends PluginBase implements Listener {
 					});
 					$form->setTitle("TransferUI Screen");
 					$form->setContent("Please choose your server.");
-					$form->addButton(TextFormat::BOLD . "§6§lFakeplex§f§lPE");	
-                                        $form->addButton(TextFormat::BOLD . "§c§lRebirth§b§lPE");	
+					$form->addButton(TextFormat::BOLD . "§6§lFakeplex§f§lPE §a§lMinigames");	
+                                        $form->addButton(TextFormat::BOLD . "§c§lRebirth§b§lPE §a§lFactions");	
 					$form->sendToPlayer($sender);
 				}
 				else{
