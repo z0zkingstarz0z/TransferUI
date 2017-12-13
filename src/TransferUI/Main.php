@@ -34,7 +34,7 @@ class Main extends PluginBase implements Listener {
 					}
 						switch($result){
 							case 0:
-								$command = "transferserver mineplexpe.com 19132";
+								$command = "transferserver fakeplexpe.com 19132";
 								$this->getServer()->getCommandMap()->dispatch($sender, $command);
 							break;
               
@@ -47,8 +47,8 @@ class Main extends PluginBase implements Listener {
 					});
 					$form->setTitle("TransferUI Screen");
 					$form->setContent("Please choose your server.");
-					$form->addButton(TextFormat::BOLD . "§6§lMineplex§f§lPE");	
-          $form->addButton(TextFormat::BOLD . "§c§lRebirth§b§lPE");	
+					$form->addButton(TextFormat::BOLD . "§6§lFakeplex§f§lPE");	
+                                        $form->addButton(TextFormat::BOLD . "§c§lRebirth§b§lPE");	
 					$form->sendToPlayer($sender);
 				}
 				else{
