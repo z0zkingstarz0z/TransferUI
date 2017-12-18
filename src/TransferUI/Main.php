@@ -34,21 +34,16 @@ class Main extends PluginBase implements Listener {
 					}
 						switch($result){
 							case 0:
-								$command = "transferserver fakeplexpe.com 19132";
+								$command = "transferserver 147.135.233.227 19132";
 								$this->getServer()->getCommandMap()->dispatch($sender, $command);
 							break;
               
-                                                        case 1:
-								$command = "transferserver rebirthpe.com 19132";
-								$this->getServer()->getCommandMap()->dispatch($sender, $command);
-							break;
 								
 						}
 					});
 					$form->setTitle("TransferUI Screen");
 					$form->setContent("Please choose your server.");
-					$form->addButton(TextFormat::BOLD . "§6§lFakeplex§f§lPE §a§lMinigames");	
-                                        $form->addButton(TextFormat::BOLD . "§c§lRebirth§b§lPE §a§lHCF");	
+					$form->addButton(TextFormat::BOLD . "§c§lRebirth§b§lPE §a§lMinigames");	                          	
 					$form->sendToPlayer($sender);
 				}
 				else{
